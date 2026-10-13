@@ -1,0 +1,73 @@
+name: Publish verified NeviSOCKS 2.0.2
+on:
+  push:
+    paths:
+      - '.github/workflows/publish-nevisocks-202.yml'
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: windows-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Validate and publish binary, then activate update
+        shell: pwsh
+        env:
+          VERIFIED_ARTIFACT_URL: "https://sdmntprnortheu.oaiusercontent.com/files/00000000-80bc-81f4-8aae-23ae458085f2/raw?se=2026-10-13T17%3A10%3A55Z&sp=r&sv=2026-02-06&sr=b&scid=faf39b96-e78a-5d98-aea3-1be742fba37e&skoid=5bfb38a5-43fb-4c63-80a1-6ae1e97e2e16&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-13T07%3A30%3A06Z&ske=2026-10-14T07%3A30%3A06Z&sks=b&skv=2026-02-06&sig=1bGtl1SuJA5jKwzOhQXNN9El0AkvKZqdOaTSgLkYdUw%3D"
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $current = Get-Content socks/update.json -Raw | ConvertFrom-Json
+          if ($current.version -ne '2.0.1') { throw 'Unexpected active version; deployment aborted.' }
+          $tempDir = Join-Path $env:RUNNER_TEMP 'nevi-202'
+          New-Item -ItemType Directory -Path $tempDir -Force | Out-Null
+          $archive = Join-Path $tempDir 'verified.zip'
+          Invoke-WebRequest -Uri $env:VERIFIED_ARTIFACT_URL -OutFile $archive
+          $zipSha = (Get-FileHash $archive -Algorithm SHA256).Hash.ToLowerInvariant()
+          if ($zipSha -ne '70b17511c117c88436ba4f39d28851943639b295609f2b9cf3916c58eedb806a') { throw 'Artifact archive digest mismatch.' }
+          $extract = Join-Path $tempDir 'files'
+          Expand-Archive -LiteralPath $archive -DestinationPath $extract
+          $exe = Join-Path $extract 'NeviSOCKS.exe'
+          $ver = Join-Path $extract 'version.txt'
+          if ((Get-Content $ver -Raw).Trim() -ne '2.0.2') { throw 'Incorrect version.txt' }
+          $exeSize = (Get-Item $exe).Length
+          $verSize = (Get-Item $ver).Length
+          $exeSha = (Get-FileHash $exe -Algorithm SHA256).Hash.ToLowerInvariant()
+          $verSha = (Get-FileHash $ver -Algorithm SHA256).Hash.ToLowerInvariant()
+          if ($exeSize -ne 60928 -or $exeSha -ne 'b32d9c519f0cc6df5c982ba1bc08f9b9a5a653b9b525f3b85ab383a6cdf58974') { throw 'Executable verification failed' }
+          if ($verSize -ne 7 -or $verSha -ne '8f74f4a02b9f7e225a14ea2a775d0c0ae6e7a683a546e7ecb50af3823f5d6fcc') { throw 'Version file verification failed' }
+          if ([Diagnostics.FileVersionInfo]::GetVersionInfo($exe).FileVersion -ne '2.0.2.0') { throw 'PE file version mismatch.' }
+          $ready = Join-Path $tempDir 'smoke-ready.txt'
+          $app = Start-Process $exe -ArgumentList ('--smoke "' + $ready + '"') -PassThru
+          if (!$app.WaitForExit(15000)) { $app.Kill(); throw 'GUI smoke test timed out.' }
+          if ($app.ExitCode -ne 0 -or !(Test-Path $ready)) { throw 'GUI startup smoke test failed.' }
+          Copy-Item $exe socks/NeviSOCKS.exe -Force
+          Copy-Item $ver socks/version.txt -Force
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add socks/NeviSOCKS.exe socks/version.txt
+          git diff --cached --quiet
+          if ($LASTEXITCODE -eq 0) { throw 'No binary changes staged.' }
+          git commit -m 'release: stage tested NeviSOCKS 2.0.2 files'
+          if ($LASTEXITCODE -ne 0) { throw 'Binary commit failed' }
+          git push origin HEAD:main
+          if ($LASTEXITCODE -ne 0) { throw 'Binary push failed. Manifest remains unchanged.' }
+          $payloadCommit = (git rev-parse HEAD).Trim()
+          $manifest = @{
+            schema = 2
+            version = '2.0.2'
+            commit = $payloadCommit
+            files = @(
+              @{name='NeviSOCKS.exe';size=$exeSize;sha256=$exeSha},
+              @{name='version.txt';size=$verSize;sha256=$verSha}
+            )
+          } | ConvertTo-Json -Depth 6
+          [IO.File]::WriteAllText((Join-Path $PWD 'socks/update.json'), $manifest + [Environment]::NewLine, [Text.UTF8Encoding]::new($false))
+          git add socks/update.json
+          git commit -m 'release: activate verified NeviSOCKS 2.0.2 update'
+          if ($LASTEXITCODE -ne 0) { throw 'Manifest commit failed' }
+          git push origin HEAD:main
+          if ($LASTEXITCODE -ne 0) { throw 'Manifest push failed. Old update remains active.' }
+          Write-Host "Published tested 2.0.2 against immutable commit $payloadCommit"
