@@ -1,0 +1,184 @@
+{
+  "size": 2312852,
+  "sha256": "0545fb65bf5f70185fe23b8c24ea1f1b0e11a4a05ca7a5ddeea6abb3fffaffeb",
+  "parts": [
+    "part-00.b64",
+    "part-01.b64",
+    "part-02.b64",
+    "part-03.b64"
+  ],
+  "files": [
+    {
+      "name": "Dia2Lib.dll",
+      "size": 59024,
+      "sha256": "6c4cac68010fe032218efe5e9fcf46eef9f77bfaa5f3bd33f03c5ff77d5a8fac"
+    },
+    {
+      "name": "LICENSE",
+      "size": 61349,
+      "sha256": "14a0cb5214d536e4fdae6aa3f5696f981eeda106cd026e9794bba489ee79d628"
+    },
+    {
+      "name": "Microsoft.Bcl.AsyncInterfaces.dll",
+      "size": 26384,
+      "sha256": "881d98c0d56edcba53c18eb5df0a334333cb647f47ba42049784258778f34596"
+    },
+    {
+      "name": "Microsoft.Diagnostics.FastSerialization.dll",
+      "size": 76088,
+      "sha256": "f01f02feaf1979d5d8a8c1a2a0f98818d33120a5234f7ae6bda1744585e05c71"
+    },
+    {
+      "name": "Microsoft.Diagnostics.NETCore.Client.dll",
+      "size": 147392,
+      "sha256": "850a14d0925fae5fccb9755f1aa5fe43fdf2cd2ffd0231c0b33b994ee9261f33"
+    },
+    {
+      "name": "Microsoft.Diagnostics.Tracing.TraceEvent.dll",
+      "size": 3329336,
+      "sha256": "bc4ef3839aea46cebc54a557ecc115474c6eecadfbc68c76da087e8dd616ba7e"
+    },
+    {
+      "name": "Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+      "size": 47216,
+      "sha256": "95a7c66abd60ba45a2020ac3d42702fd9823f7b6db2ceec6a37c9e9b0602fed1"
+    },
+    {
+      "name": "Microsoft.Extensions.DependencyInjection.dll",
+      "size": 84608,
+      "sha256": "d6de20035b25367a82da6180c45511d9077374c5f96f6cc5fedd2107d61efb9c"
+    },
+    {
+      "name": "Microsoft.Extensions.Logging.Abstractions.dll",
+      "size": 64112,
+      "sha256": "050405babe5276f1b2e405809c46847da2b4a7cb005a976c58949ed68d9ff37a"
+    },
+    {
+      "name": "Microsoft.Extensions.Logging.dll",
+      "size": 44656,
+      "sha256": "4d1ca57435ba7d3193a1657cbda1c66ad39cf4f449a069332544f73ee2e779e4"
+    },
+    {
+      "name": "Microsoft.Extensions.Options.dll",
+      "size": 58480,
+      "sha256": "ac83168b7316e7b9f8e0806d3cce8030d2f41ad08caa085bfd4e877f5ae65827"
+    },
+    {
+      "name": "Microsoft.Extensions.Primitives.dll",
+      "size": 43120,
+      "sha256": "60df37bef5b47e822c02cf8547de3b2a836973e517efbaf090f14086d5155c9b"
+    },
+    {
+      "name": "Microsoft.Win32.Registry.dll",
+      "size": 26496,
+      "sha256": "e9a9d281c1a708aaae366f82fd6a1742f65da2918cc4fa5eaaaada0be24277d9"
+    },
+    {
+      "name": "NeviAppScope.exe",
+      "size": 40448,
+      "sha256": "8ebefcbfce0ba22900249baf7f443341629ca66d71c48aa68dadfdc7a8e3aafc"
+    },
+    {
+      "name": "NeviAppScope.exe.config",
+      "size": 2884,
+      "sha256": "17eb3536b27cd5603b96ebf23beafeca250c154f639f6e695ce594b4dadb8dc0"
+    },
+    {
+      "name": "System.Buffers.dll",
+      "size": 23816,
+      "sha256": "2d78d770c9cb997199154ae8c018b9f1d1efbc86729f7264dde6dbad2a12cac3"
+    },
+    {
+      "name": "System.Collections.Immutable.dll",
+      "size": 259384,
+      "sha256": "83c48bdccb0b80497c252be8ce2d1177aa644e499005cac13ec39e1a55b7f3ff"
+    },
+    {
+      "name": "System.Diagnostics.DiagnosticSource.dll",
+      "size": 166512,
+      "sha256": "81e664880042e451495a1be22624ab4ab5e8a06803eeda5bdda7c69df2439815"
+    },
+    {
+      "name": "System.IO.Pipelines.dll",
+      "size": 84752,
+      "sha256": "eea5dee4914b04801e1541f2ad5a14b4317a30d07760e55d5d37aec03097c47e"
+    },
+    {
+      "name": "System.Memory.dll",
+      "size": 145200,
+      "sha256": "d5e8e4866f9cfa66f7765660f84b210198893e55335487afe5ebda342c0e913d"
+    },
+    {
+      "name": "System.Numerics.Vectors.dll",
+      "size": 110344,
+      "sha256": "20c2fa81b8c70d651099d762954f285fd4f942e63b2d7217c145dab8d4b2f4c9"
+    },
+    {
+      "name": "System.Reflection.Metadata.dll",
+      "size": 511264,
+      "sha256": "8055d24d3b17010f18d59bea962884922dea516632a5d8a02c57ea7534f2a214"
+    },
+    {
+      "name": "System.Reflection.TypeExtensions.dll",
+      "size": 21576,
+      "sha256": "4682c5211d69e0c40c39f044929aceaf1ce6b4cbac8f938a05f493e35de83dbf"
+    },
+    {
+      "name": "System.Runtime.CompilerServices.Unsafe.dll",
+      "size": 19256,
+      "sha256": "08cbd7278b66f1e68425a82d4b97181a4130d93e3dd91831407aba7212ccdacf"
+    },
+    {
+      "name": "System.Security.AccessControl.dll",
+      "size": 33672,
+      "sha256": "1fda491eebdb19ea0a83cf6c16ab5dd004a1bfdfc845ede017ebe0945beb927f"
+    },
+    {
+      "name": "System.Security.Principal.Windows.dll",
+      "size": 18312,
+      "sha256": "b4d8e15adc235d0e858e39b5133e5d00a4baa8c94f4f39e3b5e791b0f9c0c806"
+    },
+    {
+      "name": "System.Text.Encodings.Web.dll",
+      "size": 79656,
+      "sha256": "e779d7127d1f270edaf85d9d5516bd51b1d71618c4df5a23c65befcaffcd44a1"
+    },
+    {
+      "name": "System.Text.Json.dll",
+      "size": 726840,
+      "sha256": "53463df8e4d8f3d7b20d58d6ec75e2591df64b9c4bcf0f85c07403154f6d32c3"
+    },
+    {
+      "name": "System.Threading.Tasks.Extensions.dll",
+      "size": 25984,
+      "sha256": "4f81ffd0dc7204db75afc35ea4291769b07c440592f28894260eea76626a23c6"
+    },
+    {
+      "name": "System.ValueTuple.dll",
+      "size": 25232,
+      "sha256": "e905d102585b22c6df04f219af5cbdbfa7bc165979e9788b62df6dcc165e10f4"
+    },
+    {
+      "name": "TraceEvent-LICENSE.txt",
+      "size": 1116,
+      "sha256": "cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310"
+    },
+    {
+      "name": "TraceReloggerLib.dll",
+      "size": 23216,
+      "sha256": "6830c0f1d3f3c17719181e73dd5cfa8ccbb3f3c575329d2120576545103467b5"
+    },
+    {
+      "name": "WinDivert.dll",
+      "size": 47616,
+      "sha256": "c1e060ee19444a259b2162f8af0f3fe8c4428a1c6f694dce20de194ac8d7d9a2"
+    },
+    {
+      "name": "WinDivert64.sys",
+      "size": 94144,
+      "sha256": "8da085332782708d8767bcace5327a6ec7283c17cfb85e40b03cd2323a90ddc2"
+    }
+  ],
+  "source_commit": "e520c140eb0d5834775e0a6c712f50fa49c59e94",
+  "test_run": 38567152497
+}
