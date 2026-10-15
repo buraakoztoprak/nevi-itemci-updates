@@ -1,0 +1,19 @@
+{
+  "version": "2.0.20",
+  "source_commit": "359c78879626bff2887d27e6ffd6f8964d496e5d",
+  "native_workflow_run": 38743857402,
+  "integration_workflow_run": 38743857126,
+  "helper_commit": "9c00ac2fbcd1b4b5a7405f423d2c751a64903538",
+  "previous_version": "2.0.19",
+  "metrics": {
+    "latency": "TCP connect to selected SOCKS endpoint; refresh 10 seconds; not game RTT",
+    "traffic": "Actual application payload bytes relayed per proxy; refresh 1 second; not bandwidth capacity",
+    "quality": "TCP latency and recent SOCKS/relay failures; not wireless signal strength"
+  },
+  "changes": [
+    "Selected proxy header with TCP latency, upload/download rate, four-bar quality",
+    "Private, credential-free atomic per-proxy telemetry",
+    "Idle/reset/stale sample handling",
+    "Existing routing and client tabs retained"
+  ]
+}
