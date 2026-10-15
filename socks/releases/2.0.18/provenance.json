@@ -1,0 +1,20 @@
+{
+  "version": "2.0.18",
+  "source_repository": "buraakoztoprak/socksproject",
+  "source_commit": "7c7eb3ad94b6cd5509f2e3ab2f2c952370d60aa7",
+  "native_workflow_run": 38719370471,
+  "integration_workflow_run": 38719370529,
+  "helper_commit": "0d555ada19304e3d6360f113f0439e12717871fb",
+  "previous_version": "2.0.17",
+  "checks": [
+    "native self-tests and Windows GUI startup",
+    "updater install and rollback",
+    "two SOCKS endpoints with independent credentials",
+    "same path immediate first connections and reconnects",
+    "launcher child session inheritance",
+    "third direct client",
+    "stop preserves game processes",
+    "automatic pinned engine download",
+    "no route or DNS changes"
+  ]
+}
