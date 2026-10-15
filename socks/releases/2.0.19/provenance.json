@@ -1,0 +1,13 @@
+{
+  "version": "2.0.19",
+  "source_commit": "8cfd6821c44aca054049feeb705ba5b8e9567665",
+  "native_workflow_run": 38722113290,
+  "engine_version": "2.0.18",
+  "previous_version": "2.0.18",
+  "changes": [
+    "Persistent client tabs with separate proxy and game selection",
+    "Add, close and horizontally scroll client tabs",
+    "Existing client proxy sessions stay fixed while switching tabs",
+    "Migrate existing selected proxy and game to first tab"
+  ]
+}
