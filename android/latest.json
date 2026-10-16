@@ -1,8 +1,8 @@
 {
-  "versionCode": 6,
-  "versionName": "0.4.0",
-  "apkUrl": "https://github.com/buraakoztoprak/nevi-itemci-updates/releases/download/android-v0.4.0/Nevi-Itemci-Android-0.4.0.apk",
-  "sha256": "3220d7a1b2cfca69913ae78bb2f8bb0d23071a99144fc48d32d1cc7d704e4837",
-  "size": 312161,
-  "notes": "Android mesaj ve satış bildirimleri, bildirim izni ve test düğmesi eklendi. Arka planda takip ve zamanlanmış yedek kontroller eklendi. Yeni uyarılar için Itemci hesabına giriş yapıp bildirim iznini ver."
+  "versionCode": 7,
+  "versionName": "0.4.1",
+  "apkUrl": "https://github.com/buraakoztoprak/nevi-itemci-updates/releases/download/android-v0.4.1/Nevi-Itemci-Android-0.4.1.apk",
+  "sha256": "0a99194427b4c650571aeff888af4ad6c51e26b8fa0ca8a6c5c70332a5595172",
+  "size": 397202,
+  "notes": "Mesajlar için iPhone tarzı kısa üç tonlu ses, satışlar için kasa sesi eklendi. Menüden iki sesi ayrı ayrı deneyebilir ve Android bildirim ayarlarından değiştirebilirsin."
 }
