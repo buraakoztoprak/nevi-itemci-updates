@@ -1,0 +1,8 @@
+{
+  "versionCode": 3,
+  "versionName": "0.3.0",
+  "apkUrl": "https://github.com/buraakoztoprak/nevi-itemci-updates/releases/download/android-v0.3.0/Nevi-Itemci-Android-0.3.0.apk",
+  "sha256": "902ba8aacef7af9af86b2dd3e7bcf5cfe31e4eb72b60d8f65c9aac16dfa78baa",
+  "size": 49743,
+  "notes": "Uygulama içinden güncelleme sistemi ve sabit uygulama imzası. Mobil menü ve reklam engeli dahil."
+}
