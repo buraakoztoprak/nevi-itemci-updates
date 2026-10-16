@@ -1,8 +1,8 @@
 {
-  "versionCode": 8,
-  "versionName": "0.4.2",
-  "apkUrl": "https://github.com/buraakoztoprak/nevi-itemci-updates/releases/download/android-v0.4.2/Nevi-Itemci-Android-0.4.2.apk",
-  "sha256": "5b2369ec0351e5b35143e50b043278a001ea7bf488499595e586301ab1389b74",
-  "size": 367250,
-  "notes": "Mesaj sesi kullanıcının sağladığı glass.mp3 dosyasıyla birebir değiştirildi. Satış sesi gerçek bir kasa kaydından alınan bölümle yenilendi. Menüden iki sesi ayrı ayrı deneyebilirsin."
+  "versionCode": 9,
+  "versionName": "0.4.3",
+  "apkUrl": "https://github.com/buraakoztoprak/nevi-itemci-updates/releases/download/android-v0.4.3/Nevi-Itemci-Android-0.4.3.apk",
+  "sha256": "3c1876baabb0272d76f78538175c2ffa5d1f89319cdbe0e16dc76dc5e4c21f8a",
+  "size": 372682,
+  "notes": "Bildirim tespiti düzeltildi: dönen takip çerezleri artık başlangıç kaydını sıfırlamıyor. Mobil mesaj düğmesi ve rozetleri ile farklı satış kayıtları okunuyor. Açık sayfadan canlı takip ve Menü > Bildirim takip durumu eklendi."
 }
