@@ -1,8 +1,8 @@
 {
-  "versionCode": 7,
-  "versionName": "0.4.1",
-  "apkUrl": "https://github.com/buraakoztoprak/nevi-itemci-updates/releases/download/android-v0.4.1/Nevi-Itemci-Android-0.4.1.apk",
-  "sha256": "0a99194427b4c650571aeff888af4ad6c51e26b8fa0ca8a6c5c70332a5595172",
-  "size": 397202,
-  "notes": "Mesajlar için iPhone tarzı kısa üç tonlu ses, satışlar için kasa sesi eklendi. Menüden iki sesi ayrı ayrı deneyebilir ve Android bildirim ayarlarından değiştirebilirsin."
+  "versionCode": 8,
+  "versionName": "0.4.2",
+  "apkUrl": "https://github.com/buraakoztoprak/nevi-itemci-updates/releases/download/android-v0.4.2/Nevi-Itemci-Android-0.4.2.apk",
+  "sha256": "5b2369ec0351e5b35143e50b043278a001ea7bf488499595e586301ab1389b74",
+  "size": 367250,
+  "notes": "Mesaj sesi kullanıcının sağladığı glass.mp3 dosyasıyla birebir değiştirildi. Satış sesi gerçek bir kasa kaydından alınan bölümle yenilendi. Menüden iki sesi ayrı ayrı deneyebilirsin."
 }
