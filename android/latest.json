@@ -1,8 +1,8 @@
 {
-  "versionCode": 10,
-  "versionName": "0.4.4",
-  "apkUrl": "https://github.com/buraakoztoprak/nevi-itemci-updates/releases/download/android-v0.4.4/Nevi-Itemci-Android-0.4.4.apk",
-  "sha256": "d30e4e361825e7ba77aee87aa755ee450902a3912393ae46f94b07fbed873f4d",
-  "size": 376990,
-  "notes": "Bildirim sesleri Android'in okuyabileceği sabit içerik adreslerine taşındı ve ses kategorileri yenilendi. Glass ve kasa dosyaları birebir doğrulanıyor. Menüye doğrudan ses dinleme, ayrı Android ses ayarları ve ses tanılama bilgisi eklendi."
+  "versionCode": 11,
+  "versionName": "0.4.5",
+  "apkUrl": "https://github.com/buraakoztoprak/nevi-itemci-updates/releases/download/android-v0.4.5/Nevi-Itemci-Android-0.4.5.apk",
+  "sha256": "1490295c481d10ab6c5d71f234607cc703b659d9d16783d7f6c32f39f539039d",
+  "size": 1521647,
+  "notes": "Itemci sayfasının ve arka plan sayfasının kendi sesleri kapatıldı; bildirim sesini yalnız Android çalar. Aynı anda gelen mesaj ve satış uyarıları aralıklı gönderilir. Satış takibi yüklenen/yanlış sayfayı boş liste saymaz, parçalı satış başlıklarını okur ve satışları öncelikli kontrol eder. Ses dosyaları değiştirilmedi."
 }
