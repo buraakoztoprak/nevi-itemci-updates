@@ -1,5 +1,13 @@
 {
   "SchemaVersion": 1,
   "MinimumVersion": "2.7.64",
-  "Licenses": []
+  "Licenses": [
+    {
+      "Id": "lic-29c8ffe2b54507c9",
+      "KeyHash": "9b93173eb4df4b19bf50e49f2d68d73b7b5b195acbb279bf8cc3bfac4ec7b441",
+      "DeviceHash": "9c3add5247756dff7e8a07977bb1f0f0b79d15e4e87604597b33efe1287ec009",
+      "Enabled": true,
+      "ExpiresAtUtc": null
+    }
+  ]
 }
