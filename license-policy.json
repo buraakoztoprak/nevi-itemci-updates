@@ -8,6 +8,13 @@
       "DeviceHash": "9c3add5247756dff7e8a07977bb1f0f0b79d15e4e87604597b33efe1287ec009",
       "Enabled": true,
       "ExpiresAtUtc": null
+    },
+    {
+      "Id": "lic-4e5f465cf03371c1",
+      "KeyHash": "9cc71a26e480bcb5904741018985d792fe083d01fb3ee2211280f5b97d8b05c0",
+      "DeviceHash": "a4c65fafe51af601303bb1e0ea98acbe3f07137a50889b5d7f6202f769673285",
+      "Enabled": true,
+      "ExpiresAtUtc": null
     }
   ]
 }
