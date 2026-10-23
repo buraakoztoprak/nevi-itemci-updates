@@ -1,17 +1,17 @@
 {
   "schema": 2,
-  "version": "2.0.20",
-  "commit": "108ac23de14d8b68a65c0107841b641be2bcd421",
+  "version": "2.0.21",
+  "commit": "3d4548a366270a2337f82a1454cd638fc195490a",
   "files": [
     {
       "name": "NeviSOCKS.exe",
-      "size": 389632,
-      "sha256": "b1796afc1aa72a617413c40f3287dbc1a4eebbf48e23c21cd52984d961a6de52"
+      "size": 411136,
+      "sha256": "291898709e8cd63d8309fc848e471373a964e6b258f4c7ef34c1a4416d1ed999"
     },
     {
       "name": "version.txt",
       "size": 8,
-      "sha256": "032b80cd09c99a8d0bf20428c50ed306c704fada030f2306ec249f5b19e50736"
+      "sha256": "3e121d47d9b8e65d0ba1dd962fe5992a0798c257dbe807638f22bc2954c27e56"
     }
   ]
 }
