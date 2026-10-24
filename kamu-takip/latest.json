@@ -1,6 +1,6 @@
 {
-  "version": "0.3.1.0",
-  "url": "https://raw.githubusercontent.com/buraakoztoprak/nevi-itemci-updates/main/kamu-takip/releases/NeviKamuTakip-0.3.1.exe",
-  "sha256": "4b37882f05fd9ad9ec1c43bf5f62a69f5f56f79112d8d21809f1511f87963940",
-  "notes": "Tarım ve Orman Bakanlığı PERGEM personel duyuruları eklendi. Toplam 7 kaynak; yayın tarihi ile başvuru tarihi ayrı tutulur."
+  "version": "0.3.2.0",
+  "url": "https://raw.githubusercontent.com/buraakoztoprak/nevi-itemci-updates/main/kamu-takip/releases/NeviKamuTakip-0.3.2.exe",
+  "sha256": "e70842e0f8b090804dd8a9a4365896748d68510f89fbcbef1ffc889ad827048c",
+  "notes": "Kaynak ve şehir filtrelerine tıklarken oluşan menü çökmesi düzeltildi. Menü yaşam döngüsü ve kaynak kullanımı düzeltildi; beklenmeyen hatalar için günlük eklendi."
 }
