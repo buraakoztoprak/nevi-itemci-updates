@@ -1,6 +1,6 @@
 {
-  "version": "0.2.0.0",
-  "url": "https://raw.githubusercontent.com/buraakoztoprak/nevi-itemci-updates/main/kamu-takip/releases/NeviKamuTakip-0.2.0.exe",
-  "sha256": "eb1503bae5c897ee33c514bbb03b2fb50fc1bbcb21c275b0431e8324e3f64869",
-  "notes": "İŞKUR, SBB, OGM, Resmî Gazete ve Yerel Yönetimler kaynakları; kaynak durumları ve uygulama içi güncelleme."
+  "version": "0.3.0.0",
+  "url": "https://raw.githubusercontent.com/buraakoztoprak/nevi-itemci-updates/main/kamu-takip/releases/NeviKamuTakip-0.3.0.exe",
+  "sha256": "583a29db97e7984f56126d3cc421a4b14f82bbc255a804ce3af961d882540c66",
+  "notes": "KPSS Tercihi eklendi. Daha sade açık tema, yumuşak yeşil vurgular, kompakt kaynak paneli ve birleştirilmiş kaynak etiketleri."
 }
