@@ -1,6 +1,6 @@
 {
-  "version": "0.4.0.0",
-  "url": "https://raw.githubusercontent.com/buraakoztoprak/nevi-itemci-updates/main/kamu-takip/releases/NeviKamuTakip-0.4.0.exe",
-  "sha256": "121fcb0a8ddd8b1a5be1b34ab452ed8850f6e5758fa4e5c6781875a798b7b61d",
-  "notes": "Şehirlerim ekranı: 81 ilden çoklu seçim, arama ve kalıcı kayıt. Tercih filtresi ve İŞKUR taraması seçtiğin illeri kullanır."
+  "version": "0.4.1.0",
+  "url": "https://raw.githubusercontent.com/buraakoztoprak/nevi-itemci-updates/main/kamu-takip/releases/NeviKamuTakip-0.4.1.exe",
+  "sha256": "b14582716b7b303dacaa73f43ccd32856fb474bd9be22fe8ab1dc854d3257542",
+  "notes": "Koyu tema: ana ekran, filtreler, şehir seçimi, profil ve not pencereleri koyu yeşil tonlara uyarlandı. Kayıtlar ve şehir tercihleri korunur."
 }
