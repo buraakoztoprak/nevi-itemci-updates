@@ -1,6 +1,6 @@
 {
-  "version": "0.3.0.0",
-  "url": "https://raw.githubusercontent.com/buraakoztoprak/nevi-itemci-updates/main/kamu-takip/releases/NeviKamuTakip-0.3.0.exe",
-  "sha256": "583a29db97e7984f56126d3cc421a4b14f82bbc255a804ce3af961d882540c66",
-  "notes": "KPSS Tercihi eklendi. Daha sade açık tema, yumuşak yeşil vurgular, kompakt kaynak paneli ve birleştirilmiş kaynak etiketleri."
+  "version": "0.3.1.0",
+  "url": "https://raw.githubusercontent.com/buraakoztoprak/nevi-itemci-updates/main/kamu-takip/releases/NeviKamuTakip-0.3.1.exe",
+  "sha256": "4b37882f05fd9ad9ec1c43bf5f62a69f5f56f79112d8d21809f1511f87963940",
+  "notes": "Tarım ve Orman Bakanlığı PERGEM personel duyuruları eklendi. Toplam 7 kaynak; yayın tarihi ile başvuru tarihi ayrı tutulur."
 }
