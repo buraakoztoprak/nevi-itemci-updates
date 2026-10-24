@@ -1,6 +1,6 @@
 {
-  "version": "0.4.1.0",
-  "url": "https://raw.githubusercontent.com/buraakoztoprak/nevi-itemci-updates/main/kamu-takip/releases/NeviKamuTakip-0.4.1.exe",
-  "sha256": "b14582716b7b303dacaa73f43ccd32856fb474bd9be22fe8ab1dc854d3257542",
-  "notes": "Koyu tema: ana ekran, filtreler, şehir seçimi, profil ve not pencereleri koyu yeşil tonlara uyarlandı. Kayıtlar ve şehir tercihleri korunur."
+  "version": "0.5.0.0",
+  "url": "https://raw.githubusercontent.com/buraakoztoprak/nevi-itemci-updates/main/kamu-takip/releases/NeviKamuTakip-0.5.0.exe",
+  "sha256": "8a1135d36f65c0d64c1b2147ce8a1ff943e2334d2cf23adb04d651841af9da27",
+  "notes": "Sağlık Bakanlığı, MEB Personel ve Adalet PGM eklendi. Kaynaklarım ekranından 10 sitenin takibini açıp kapatabilir, seçimlerini kaydedebilirsin."
 }
