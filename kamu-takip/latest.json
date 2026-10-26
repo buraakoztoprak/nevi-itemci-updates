@@ -1,6 +1,6 @@
 {
-  "version": "0.5.1.0",
-  "url": "https://raw.githubusercontent.com/buraakoztoprak/nevi-itemci-updates/main/kamu-takip/releases/NeviKamuTakip-0.5.1.exe",
-  "sha256": "fcbfcb3ede985b88059a7e7db530f8591ef4a93d23059258353012e6aa1e49df",
-  "notes": "Bursa İş Ofisi eklendi (özel sektör dahil). Kaynaklarım ekranından açılabilir. Tek kopya koruması ve güncellemede eski işlemin kapanmasını bekleme eklendi."
+  "version": "0.6.0.0",
+  "url": "https://raw.githubusercontent.com/buraakoztoprak/nevi-itemci-updates/main/kamu-takip/releases/NeviKamuTakip-0.6.0.exe",
+  "sha256": "f45e236a49820b1d10a7bfba5df78ad53f8b0b15d1eed2f10fce82a7e5b8e73b",
+  "notes": "Kocaeli tercihlere bir kez eklenir. Kamu / Özel sektör / Belirsiz filtresi ve düzenlenebilir alan bilgisi eklendi. LinkedIn açık ilan takibi ve arama ayarı eklendi; erişim sınırlanabilir, tarayıcıda arama alternatifi bulunur."
 }
