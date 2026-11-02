@@ -1,8 +1,8 @@
 {
-  "versionCode": 12,
-  "versionName": "0.5.0",
-  "apkUrl": "https://github.com/buraakoztoprak/nevi-itemci-updates/releases/download/android-v0.5.0/Nevi-Itemci-Android-0.5.0.apk",
-  "sha256": "5431b55741e3b2da5b6c5103d8e2c0f82820caf4222aaaedfe37573aca977c82",
-  "size": 1528087,
-  "notes": "Arka plan takibi yenilendi: sistemin kapattığı servis yeniden başlayabilir; yedek kontroller telefon ve uygulama güncellemesi sonrasında korunur. Android hızlı takip süre sınırında yedek kontrol devreye girer. Takılan sayfalar ve bağlantı dönüşü için toparlanma eklendi. Menüye arka plan çalışma ayarları, takibi yenile ve pil kısıtlaması bilgisi eklendi."
+  "versionCode": 13,
+  "versionName": "0.5.1",
+  "apkUrl": "https://github.com/buraakoztoprak/nevi-itemci-updates/releases/download/android-v0.5.1/Nevi-Itemci-Android-0.5.1.apk",
+  "sha256": "d14b78b68ad604ddf365af0630ac44592e43ec6d622f9e086b4c6e86c2fd9ef6",
+  "size": 1530395,
+  "notes": "Pil kullanımı düzenlendi. Varsayılan Dengeli mod ekran açıkken 2 dakika, ekran kapalıyken 5 dakika bekler. Kontrol bitince gizli sayfa kapatılır ve CPU kilidi bırakılır. Bağlantı hatalarında yeniden denemeler seyrekleşir. Menü → Arka plan çalışma ayarlarına Pil tasarrufu (yaklaşık 15 dakika) ve Hızlı mod seçenekleri eklendi. Bildirimler seçilen aralığa ve Android zamanlamasına göre gecikebilir."
 }
